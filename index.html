@@ -1,0 +1,47 @@
+<!-- created by demon hacker-->
+
+
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css">
+    <head>
+        <title>ADVANCED LOGIN PAGE</title>
+       
+    </head>
+<body id="body">
+
+<span id="span">Change Theme</span>
+
+<select id="select" onchange="select()">
+    <option id="select">Blue</option>
+    <option id="select">Green</option>
+    <option id="select">Red</option>
+    <option id="select">Orange</option>
+    
+</select>
+<label id="label2" for="select"><i id="i" class="fas fa-palette"></i></label>
+ <div id="div">
+  <h1 id="h1">Log in</h1>
+  <form id="form">
+  
+  <input id="user" type="text" name="email" class="email" placeholder="Type Username" required/>
+  <br />
+  <input id="pass" type="password" name="password" class="email" placeholder="Type Password" required/> 
+  <br/>
+  <input type="checkbox" id="checkbox" />
+  <label for="checkbox" id="label">Remember Me</label>
+  <br />
+  <input id="sign"  type="button" class="submit"  value="Sign in" 
+  onclick="signinbtn()" onmouseover="hover1()" onmouseout="hover12()"/>
+  </form>
+  </div> 
+  <input id="signout" type="button" onclick="signoutbtn()" onmouseover="hover1()"
+   onmouseout="hover12()" value="Sign out"/>
+ <b><p id="para1"></p></b>
+  <p id="para2"></p>
+  <b><p id="para3"></p></b>
+  <p id="para4">#DEMONHACKER</p>
+  <script src="https://kit.fontawesome.com/f34fb94d7e.js" crossorigin="anonymous"></script>
+  <script src="console.js" crossorigin="anonymous"></script>
+</body> 
+</html>
